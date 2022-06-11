@@ -32,3 +32,17 @@ function getMax(num1, num2) {
 }
 
 
+function getOperation(str) {
+    if (str == "+") {
+        console.log("add")
+    } else if (str == "-") {
+        console.log("sub")
+    } else if (str == "*") {
+        console.log("multiply")
+    } else if (str == "/") {
+        console.log("divide")
+    } else {
+        console.log("Invalid")
+    }
+}
+
